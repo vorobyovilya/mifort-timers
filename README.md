@@ -1,5 +1,5 @@
 # MifortTimers
-> If you don't want to read, you can simply watch this short [video result] (https://drive.google.com/file/d/1rsEYVa14DxRZi66owPYVZ6TP6Nwc4MMK/view)
+> If you don't want to read, you can simply watch this short [video result](https://drive.google.com/file/d/1rsEYVa14DxRZi66owPYVZ6TP6Nwc4MMK/view)
 
 This app demonstrates two ways of ChangeDetectionStrategy.
 
