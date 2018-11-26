@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+input {
+  font-family: "Comic Sans MS";
+  border: 2px solid #01adff;
+  border-radius: 5px;
+  font-size: 200%;
+  padding: 5px;
+  color: #01adff;
+  background: transparent;
+  outline: 0 !important;
+  width: 100px;
+}
+
+button {
+  font-family: "Amatic SC";
+  display: inline-block;
+  align-self: center;
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 200%;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  opacity: 0.7;
+  outline: 0 !important;
+  margin: 5px;
+}
+
+

@@ -1,27 +1,21 @@
 # MifortTimers
+> If you don't want to read, you can simply watch this short [video result] (https://drive.google.com/file/d/1rsEYVa14DxRZi66owPYVZ6TP6Nwc4MMK/view)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+This app demonstrates two ways of ChangeDetectionStrategy.
 
-## Development server
+The app has 3 types of timers which uses different types of change detection strategy : 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. **default**  ( *default value: 100 sec )
+2. **onPush** ( *default value: 200 sec )
+3. **manual onPush** ( *default value: 300 sec )
 
-## Code scaffolding
+Button "Add" passes the set value with input binding.
+The first timer changes every second because of default change detection strategy. 
+The second refreshes all the changes only by a button "Add" click.
+The third in addition to simple OnPush strategy shows it's changes every two seconds with help of change detection's "detectChanges" method (manually).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

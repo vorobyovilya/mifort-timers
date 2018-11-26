@@ -1,0 +1,12 @@
+
+h1 {
+  font-family: "Comic Sans MS";
+  color: #01adff;
+  margin-top: -15px;
+}
+
+.timers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

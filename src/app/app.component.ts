@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mifort-timers';
+  title: string = 'Timers';
+
+  public addTimerValue: {value: number} = {value: 0};
+
+  changeTimerValue(_value): void {
+    this.addTimerValue = {value: _value};
+  }
 }

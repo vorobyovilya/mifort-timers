@@ -1,0 +1,11 @@
+div{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+label{
+  font-family: "Comic Sans MS";
+  font-size:300%;
+  color: #01adff;
+}
